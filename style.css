@@ -6,19 +6,26 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+button{
+    font-family: 'Poppins', sans-serif;
+}
 header{
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 10vh;
     margin: auto;
     align-items: center;
 }
 .logo-container,.nav-links{
     display: flex;
+    align-items: center;
 }
 .logo{
     font-weight: 400;
     margin: 5px;
+}
+.logo-img{
+    width: 30vh;
 }
 .nav-links{
     justify-content: space-around;
@@ -30,7 +37,6 @@ header{
     text-decoration: none;
 }
 .logo-container{
-    background: lightgreen;
     flex: 1;   
 }
 nav{
@@ -44,12 +50,78 @@ nav{
     align-items: center;
 }
 .introduction{
+    flex: 2;
+}
+.intro-text h1{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cover{
     flex: 1;
 }
 .cover img{
-    height: 60vh;
+    height: 40vh;
+}
+.big-circle{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.4;
+    height: 100%;
+    z-index: -1;
+}
+.medium-circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	height: 60%;
+    opacity: 0.4;
+    z-index: -1;
+}
+.small-circle {
+	position: absolute;
+	bottom: 0%;
+    left: 20%;
+    z-index: -1;
 }
 
+.footer-container{
+    text-align: center;
+    height: 35vh;
+    padding: 50px 0px 0px 50px;
+    background: darkgrey;
+    color: whitesmoke;
+    display: flex;
+    flex: 2;
+}
 
-
-
+.card-footer {
+    align-self: auto;
+    flex: 1 1 auto;
+}
+.copyright{
+    text-align: center;
+    background: grey;
+    color: lightgray;
+    
+}
