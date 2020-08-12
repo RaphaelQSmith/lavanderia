@@ -125,3 +125,27 @@ nav{
     color: lightgray;
     
 }
+.subitem{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+}
+.subitem p {
+    margin-top: 2%;
+    font-size: 14px;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subitem-container{
+    text-align: center;
+    height: 35vh;
+    padding: 50px 0px 0px 50px;
+    margin: auto;
+    display: flex;
+    flex: 2;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
