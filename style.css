@@ -142,7 +142,7 @@ nav{
     text-align: center;
     height: 35vh;
     padding: 50px 0px 0px 50px;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex: 2;
     background: linear-gradient(to right, #494964, #6f6f89);
