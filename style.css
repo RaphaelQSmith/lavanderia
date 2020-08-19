@@ -16,6 +16,12 @@ header{
     margin: auto;
     align-items: center;
 }
+h3{
+    font-weight: 300;
+    background: linear-gradient(to right, #2a2a3a, #8f8fb1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .logo-container,.nav-links{
     display: flex;
     align-items: center;
@@ -46,8 +52,9 @@ nav{
     display: flex;
     width: 90%;
     margin: auto;
-    min-height: 80vh;
+    min-height: 65vh;
     align-items: center;
+    padding-bottom: 28%;
 }
 .introduction{
     flex: 2;
@@ -81,6 +88,7 @@ nav{
 }
 .cover img{
     height: 40vh;
+    animation: drop 1.5s ease;
 }
 .big-circle{
     position: absolute;
@@ -89,6 +97,7 @@ nav{
     opacity: 0.4;
     height: 100%;
     z-index: -1;
+    animation: drop 1.5s ease;
 }
 .medium-circle {
 	position: absolute;
@@ -97,19 +106,24 @@ nav{
 	height: 60%;
     opacity: 0.4;
     z-index: -1;
+    animation: drop 1.5s ease;
 }
 .small-circle {
 	position: absolute;
 	bottom: 0%;
     left: 20%;
     z-index: -1;
+    animation: drop 1.5s ease;
+}
+.subcard{
+    padding-left: 2%;
 }
 
 .footer-container{
     text-align: center;
     height: 35vh;
     padding: 50px 0px 0px 50px;
-    background: darkgrey;
+    background: #006B3C;
     color: whitesmoke;
     display: flex;
     flex: 2;
@@ -120,12 +134,12 @@ nav{
     flex: 1 1 auto;
 }
 .fa {
-    padding: 10px;
+    padding: 5px;
     font-size: 10px;
-    width: 50px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 2px 2px;
     border-radius: 80%;
   }
   
@@ -143,28 +157,29 @@ nav{
   }  
 .copyright{
     text-align: center;
-    background: grey;
+    background: #00563F;
     color: lightgray;
-    
+    font-size: 12px;
 }
 .subitem{
     text-align: center;
     width: 80%;
     margin: auto;
+    padding: 3%;
     
 }
 .subitem p {
     margin-top: 2%;
-    font-size: 13px;
+    font-size: 12px;
     background: linear-gradient(to right, #494964, #6f6f89);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .subitem-container{
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     height: 35vh;
-    padding: 50px 0px 0px 50px;
+    padding: 10%;
     /* margin: auto; */
     display: flex;
     flex: 2;
@@ -172,3 +187,53 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #serv {
+    top: 20px;
+    background-color: #006B3C;
+  }
+  
+  #prices {
+    top: 80px;
+    background-color: #247924;
+  }
+  
+  #about {
+    top: 140px;
+    background-color: #4CAF50;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #12E772
+  }
+
