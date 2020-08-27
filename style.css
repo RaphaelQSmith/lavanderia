@@ -54,7 +54,7 @@ nav{
     margin: auto;
     min-height: 65vh;
     align-items: center;
-    padding-bottom: 28%;
+    padding-bottom: 18%;
 }
 .introduction{
     flex: 2;
@@ -123,7 +123,7 @@ nav{
     text-align: center;
     height: 35vh;
     padding: 50px 0px 0px 50px;
-    background: #006B3C;
+    background: #414242;
     color: whitesmoke;
     display: flex;
     flex: 2;
@@ -159,7 +159,7 @@ nav{
     text-align: center;
     background: #00563F;
     color: lightgray;
-    font-size: 12px;
+    font-size: 14px;
 }
 .subitem{
     text-align: center;
@@ -284,3 +284,4 @@ nav{
         text-indent: 1.8rem;
         font-size: 10pt;
       }
+
