@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -132,6 +133,7 @@ nav{
 .card-footer {
     align-self: auto;
     flex: 1 1 auto;
+    font-size: 10px;
 }
 .fa {
     padding: 5px;
@@ -168,10 +170,10 @@ nav{
     padding: 3%;
 }
 .subitem button{
-    color: whitesmoke;
-    background-color: #006B3C;
-    padding: 4px;
-    opacity: 70%;
+    color: white;
+    background-color: #1EF2A4;
+    padding: 8px;
+    opacity: 100%;
     border-radius: 5px 5px 5px 5px;
 }
 .subitem p {
@@ -204,8 +206,6 @@ nav{
 		transform: translateY(0px);
 	}
 }
-
-
 
 #mySidenav a {
     position: absolute;
@@ -243,9 +243,7 @@ nav{
     background-color: #12E772
   }
 
-
 /* ############################# */
-
 
   .lower-section,
   .upper-section {
@@ -285,3 +283,57 @@ nav{
         font-size: 10pt;
       }
 
+/* ####################################################### */
+
+
+#btn {
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  
+  #btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  #btn:hover {
+    background: transparent;
+  }
+  
+  #btn:hover #circle {
+    height: 50px;
+    width: 150px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
