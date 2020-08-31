@@ -287,14 +287,14 @@ nav{
 
 
 #btn {
-    background: #222;
+    background: #414242;
     height: 50px;
-    min-width: 150px;
+    width: 150px;
     border: none;
     border-radius: 10px;
     color: #eee;
-    font-size: 20px;
-    font-family: 'Cookie', cursive;
+    font-size: 13px;
+    font-family: ;
     position: relative;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -303,6 +303,7 @@ nav{
     justify-content: center;
     cursor: pointer;
     padding-top: 5px;
+    margin: 1%;
   }
   
   #btn #circle {
