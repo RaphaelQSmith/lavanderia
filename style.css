@@ -17,11 +17,8 @@ header{
     margin: auto;
     align-items: center;
 }
-h3{
-    font-weight: 300;
-    background: linear-gradient(to right, #b8b8b9, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2{
+    color: white;
 }
 .logo-container,.nav-links{
     display: flex;
@@ -42,6 +39,11 @@ h3{
     color: grey;
     font-size: 18px;
     text-decoration: none;
+}
+.subcard2{
+    background: linear-gradient(to right, #252525, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .logo-container{
     flex: 1;   
@@ -133,7 +135,7 @@ nav{
 .card-footer {
     align-self: auto;
     flex: 1 1 auto;
-    font-size: 10px;
+    font-size: 12px;
 }
 .fa {
     padding: 5px;
@@ -178,20 +180,22 @@ nav{
 }
 .subitem p {
     margin-top: 2%;
-    font-size: 12px;
-    background: linear-gradient(to right, #969595, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    font-size: 14px;
+    /* background: linear-gradient(to right, #969595, #ffffff); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 .subitem-container{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     height: 35vh;
     padding: 10%;
     /* margin: auto; */
     display: flex;
     flex: 2;
-    background: linear-gradient(to right, #b8b8b9, #f7f7f8);
+    color: white;
+    background: linear-gradient(to right, #252525, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -257,12 +261,12 @@ nav{
   .upper-section {
     min-height: 50vh;
     width: 100%;
-    background: #0c4b0f;
+    background: #087e1c;
   }
   .lower-section{
     min-height: 50vh;
     width: 100%;
-    background:  #087e1c;
+    background:  white;
   }
   .section-divider {
     position: relative;
@@ -272,7 +276,7 @@ nav{
         content: " "; 
         width: 6.5rem;
         height: 6.5rem;
-        background: #087e1c;
+        background: white;
         border-radius: 100%;
         position: absolute;
         top: -3.25rem;
