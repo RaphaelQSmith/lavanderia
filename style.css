@@ -125,7 +125,7 @@ nav{
 .footer-container{
     text-align: center;
     height: 35vh;
-    padding: 50px 0px 0px 50px;
+    padding: 70px 0px 230px 50px;
     background: #414242;
     color: whitesmoke;
     display: flex;
@@ -134,16 +134,17 @@ nav{
 
 .card-footer {
     align-self: auto;
-    flex: 1 1 auto;
-    font-size: 12px;
+    flex: 1;
+    font-size: 11px;
+    padding: 2%;
 }
 .fa {
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
-    width: 30px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
-    margin: 2px 2px;
+    margin: 3px 3px;
     border-radius: 80%;
   }
   
